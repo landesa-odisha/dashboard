@@ -6,7 +6,7 @@ layout: fullwidth
 ## SMS Reporting
 Text message reporting has been consolidated from multiple keywords to just a single keyword: `Report`. If the person texting in is [registered in FrontlineCloud](#importing-data-into-frontline) then Frontline will automatically respond with the appropriate options.
 
-[Demo video for SMS workflow](https://www.dropbox.com/s/aw7hr5nmzczo6fb/SIMLab%20Demo%20Video%202%20-%20SMS%20Reporting.mov?dl=0)
+[Demo video for SMS workflow](videos/reporting.mov)
 
 ### Reporting Revenue Land
 If a revenue inspector texts in `Report` to the enumeration number (+919439652317), FrontlineCloud will respond with the following SMS:
@@ -89,11 +89,11 @@ The data entry spreadsheet uses Google Sheets' data validation, to guard against
 ## Firebase and the Dashboard
 FrontlineCloud passes SMS reporting data into Firebase, a cloud database service owned by Google. 
 
-[Demo video for firebase and data entry spreadsheet](https://www.dropbox.com/s/ytxn4i1sg1k1f9h/SIMLab%20Demo%20Video%203%20-%20Data%20Storage.mov?dl=0)
+[Demo video for firebase and data entry spreadsheet](videos/datastorage.mov)
 
-Firebase powers our [dashboard](http://simlab.org/client/odisha/dashboard.html), which lets collectors, tahasildars, and Landesa staff view real time updates on the land titling process.
+Firebase powers our [dashboard](dashboard.html), which lets collectors, tahasildars, and Landesa staff view real time updates on the land titling process.
 
-[Demo video for dashboard (uses old dashboard design)](https://www.dropbox.com/s/adjm5etb10mu2g7/SIMLab%20Demo%20Video%201%20-%20Dashboard.mov?dl=0)
+[Demo video for dashboard (uses old dashboard design)](videos/dashboard.mov)
 
 ## Dashboard URLs
 In addition to the main dashboard, individual dashboards for districts and tahasils can also be accessed directly via their URLs. 
